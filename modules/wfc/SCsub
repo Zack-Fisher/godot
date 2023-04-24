@@ -1,0 +1,9 @@
+Import("env")
+# env as in the build environment.
+# just a script to do stuff on the computer at compiletime
+
+# this is called as part of the larger python build script for the modules, so we just hook in here.
+# add all the cpps to the compilation. this is like the * include in the makefile
+# NOT COMPILING RIGHT NOW.
+# env.add_source_files(env.modules_sources, "*.cpp")
+# env.add_source_files(env.modules_sources, "lib/*.cpp")

@@ -1,0 +1,6 @@
+[submodule "modules/gdsdecomp"]
+	path = modules/gdsdecomp
+	url = https://github.com/bruvzg/gdsdecomp
+[submodule "modules/wfc/fast-wfc"]
+	path = modules/wfc/fast-wfc
+	url = https://github.com/math-fehr/fast-wfc.git
